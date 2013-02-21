@@ -1,7 +1,7 @@
-require 'turntabler/resource'
-require 'turntabler/avatar'
-require 'turntabler/message'
-require 'turntabler/sticker_placement'
+require_relative 'resource'
+require_relative 'avatar'
+require_relative 'message'
+require_relative 'sticker_placement'
 
 module Turntabler
   # Represents an unauthorized user on Turntable

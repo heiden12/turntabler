@@ -1,7 +1,7 @@
-require 'turntabler/error'
-require 'turntabler/resource'
-require 'turntabler/user'
-require 'turntabler/vote'
+require_relative 'error'
+require_relative 'resource'
+require_relative 'user'
+require_relative 'vote'
 
 module Turntabler
   # Represents a song that can be played on Turntable

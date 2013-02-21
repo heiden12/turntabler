@@ -1,6 +1,6 @@
 require 'pp'
-require 'turntabler/assertions'
-require 'turntabler/digest_helpers'
+require_relative 'assertions'
+require_relative 'digest_helpers'
 
 module Turntabler
   # Represents an object that's been created using content from Turntable. This

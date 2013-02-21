@@ -1,6 +1,6 @@
-require 'turntabler/assertions'
-require 'turntabler/event'
-require 'turntabler/loggable'
+require_relative 'assertions'
+require_relative 'event'
+require_relative 'loggable'
 
 module Turntabler
   # Represents a callback that's been bound to a particular event

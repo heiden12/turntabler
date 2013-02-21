@@ -1,6 +1,6 @@
 require 'set'
 require 'em-synchrony/em-http'
-require 'turntabler/resource'
+require_relative 'resource'
 
 module Turntabler
   # Represents an individual room in Turntable

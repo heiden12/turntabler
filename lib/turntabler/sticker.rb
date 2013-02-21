@@ -1,4 +1,4 @@
-require 'turntabler/resource'
+require_relative 'resource'
 
 module Turntabler
   # Represents a virtual sticker that can be placed on a user

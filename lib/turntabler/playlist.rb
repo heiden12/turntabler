@@ -1,5 +1,5 @@
-require 'turntabler/resource'
-require 'turntabler/song'
+require_relative 'resource'
+require_relative 'song'
 
 module Turntabler
   # Represents a collection of songs managed by the user and that can be played

@@ -1,5 +1,5 @@
-require 'turntabler/resource'
-require 'turntabler/user'
+require_relative 'resource'
+require_relative 'user'
 
 module Turntabler
   # Represents a vote that was made within a room

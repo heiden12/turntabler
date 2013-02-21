@@ -1,5 +1,6 @@
 require 'logger'
 require 'em-synchrony'
+require_relative 'turntabler/client'
 
 # Turntable.FM API for Ruby
 module Turntabler

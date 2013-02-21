@@ -1,4 +1,4 @@
-require 'turntabler/room'
+require_relative 'room'
 
 module Turntabler
   # Provides a set of helper methods for interacting with Turntable's directory

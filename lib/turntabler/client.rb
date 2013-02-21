@@ -1,16 +1,16 @@
 require 'fiber'
 
-require 'turntabler/authorized_user'
-require 'turntabler/avatar'
-require 'turntabler/connection'
-require 'turntabler/error'
-require 'turntabler/event'
-require 'turntabler/handler'
-require 'turntabler/loggable'
-require 'turntabler/room_directory'
-require 'turntabler/song'
-require 'turntabler/sticker'
-require 'turntabler/user'
+require_relative 'authorized_user'
+require_relative 'avatar'
+require_relative 'connection'
+require_relative 'error'
+require_relative 'event'
+require_relative 'handler'
+require_relative 'loggable'
+require_relative 'room_directory'
+require_relative 'song'
+require_relative 'sticker'
+require_relative 'user'
 
 module Turntabler
   # Provides access to the Turntable API

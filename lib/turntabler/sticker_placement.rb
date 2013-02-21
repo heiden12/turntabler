@@ -1,5 +1,5 @@
-require 'turntabler/resource'
-require 'turntabler/sticker'
+require_relative 'resource'
+require_relative 'sticker'
 
 module Turntabler
   # Represents a sticker that's been placed on a user's laptop

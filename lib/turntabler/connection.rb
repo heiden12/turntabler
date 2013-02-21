@@ -2,8 +2,8 @@ require 'faye/websocket'
 require 'em-http'
 require 'json'
 
-require 'turntabler/assertions'
-require 'turntabler/loggable'
+require_relative 'assertions'
+require_relative 'loggable'
 
 module Turntabler
   # Represents the interface for sending and receiving data in Turntable

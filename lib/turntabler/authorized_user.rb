@@ -1,7 +1,7 @@
-require 'turntabler/playlist'
-require 'turntabler/preferences'
-require 'turntabler/user'
-require 'turntabler/sticker_placement'
+require_relative 'playlist'
+require_relative 'preferences'
+require_relative 'user'
+require_relative 'sticker_placement'
 
 module Turntabler
   # Represents a user who has authorized with the Turntable service

@@ -1,4 +1,4 @@
-require 'turntabler/resource'
+require_relative 'resource'
 
 module Turntabler
   # Represents a song that was snagged

@@ -1,5 +1,5 @@
-require 'turntabler/resource'
-require 'turntabler/user'
+require_relative 'resource'
+require_relative 'user'
 
 module Turntabler
   # Represents a message that was sent to or from the current user.  This can

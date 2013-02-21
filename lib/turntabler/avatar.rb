@@ -1,4 +1,4 @@
-require 'turntabler/resource'
+require_relative 'resource'
 
 module Turntabler
   # Represents an avatar for DJ'ing

@@ -1,4 +1,4 @@
-require 'turntabler/resource'
+require_relative 'resource'
 
 module Turntabler
   # Represents an event where a user has been booted from a room

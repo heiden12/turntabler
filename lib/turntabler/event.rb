@@ -1,7 +1,7 @@
-require 'turntabler/boot'
-require 'turntabler/message'
-require 'turntabler/snag'
-require 'turntabler/song'
+require_relative 'boot'
+require_relative 'message'
+require_relative 'snag'
+require_relative 'song'
 
 module Turntabler
   # Provides access to all of the events that get triggered by incoming messages
